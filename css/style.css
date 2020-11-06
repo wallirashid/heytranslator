@@ -1,0 +1,336 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: "AdobeClean-Bold"; }
+
+p,
+a {
+  font-family: 'Open Sans', sans-serif; }
+
+.main-menu {
+  padding: 10px 25px; }
+
+.main-menu .navbar-nav .nav-item .nav-link {
+  color: #000;
+  padding-right: 30px;
+  padding-top: 10px; }
+
+.main-menu .navbar-nav .nav-item .nav-link:hover {
+  text-decoration: none; }
+
+.main-menu .navbar-nav .nav-item:last-chid .nav-link {
+  padding: 0px; }
+
+.orange-btn {
+  width: 125px;
+  height: 40px;
+  display: inline-block;
+  line-height: 40px;
+  background: #ffb319;
+  color: #fff !important;
+  text-align: center;
+  border-radius: 5px; }
+
+.orange-btn:hover {
+  text-decoration: none; }
+
+.banner-col-data h1 {
+  color: #153b51; }
+
+.banner {
+  padding: 150px 0px 0px 0px; }
+
+.banner-col-data h1 {
+  font-family: "AdobeClean-Bold";
+  margin-bottom: 0px; }
+
+.banner-col-data p {
+  margin: 30px 0px; }
+
+.col-large .banner-col-data {
+  padding-left: 150px; }
+
+.down-icon {
+  padding: 60px 0px; }
+
+.down-icon a {
+  color: #153b51; }
+
+.down-icon a i {
+  font-size: 20px; }
+
+/*--------------------------------------
+			Generated Web Fonts
+ ----------------------------------------*/
+@font-face {
+  font-family: "AdobeClean-Bold";
+  src: url("../fonts/AdobeClean-Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/AdobeClean-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/AdobeClean-Bold.otf") format("opentype"), url("../fonts/AdobeClean-Bold.svg") format("svg"), url("../fonts/AdobeClean-Bold.ttf") format("truetype"), url("../fonts/AdobeClean-Bold.woff") format("woff"), url("../fonts/AdobeClean-Bold.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "AdobeClean-BoldSemiCnIt";
+  src: url("../fonts/AdobeClean-BoldSemiCnIt.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/AdobeClean-BoldSemiCnIt.eot?#iefix") format("embedded-opentype"), url("../fonts/AdobeClean-BoldSemiCnIt.otf") format("opentype"), url("../fonts/AdobeClean-BoldSemiCnIt.svg") format("svg"), url("../fonts/AdobeClean-BoldSemiCnIt.ttf") format("truetype"), url("../fonts/AdobeClean-BoldSemiCnIt.woff") format("woff"), url("../fonts/AdobeClean-BoldSemiCnIt.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "AdobeClean-It";
+  src: url("../fonts/AdobeClean-It.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/AdobeClean-It.eot?#iefix") format("embedded-opentype"), url("../fonts/AdobeClean-It.otf") format("opentype"), url("../fonts/AdobeClean-It.svg") format("svg"), url("../fonts/AdobeClean-It.ttf") format("truetype"), url("../fonts/AdobeClean-It.woff") format("woff"), url("../fonts/AdobeClean-It.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "AdobeClean-Regular";
+  src: url("../fonts/AdobeClean-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/AdobeClean-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/AdobeClean-Regular.otf") format("opentype"), url("../fonts/AdobeClean-Regular.svg") format("svg"), url("../fonts/AdobeClean-Regular.ttf") format("truetype"), url("../fonts/AdobeClean-Regular.woff") format("woff"), url("../fonts/AdobeClean-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+/*--------------------------------------
+				Work section
+ ----------------------------------------*/
+.work-section {
+  background-color: #ffd175;
+  padding-top: 150px;
+  padding-bottom: 150px; }
+
+.inner-text-col h2 {
+  font-family: "AdobeClean-Bold";
+  color: #153b51;
+  font-weight: 700;
+  font-size: 45px; }
+
+.learn-more {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: #153b51; }
+
+.learn-more:hover {
+  text-decoration: none;
+  color: inherit; }
+
+.learn-more::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  border-bottom: 1px solid #153b51;
+  bottom: -2px;
+  width: 100%; }
+
+.inner-text-col p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #153b51; }
+
+/*--------------------------------------
+      Signup Section
+ ----------------------------------------*/
+.signup-data {
+  padding: 150px 0px; }
+
+.signup-data a {
+  position: relative;
+  color: #153b51;
+  display: inline-block;
+  font-family: "AdobeClean-Bold"; }
+
+.signup-data a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  border: 1px solid #153b51;
+  bottom: -20px;
+  width: 100%; }
+
+.signup-data a:hover {
+  text-decoration: none; }
+
+.carousel-work .carousel-indicators {
+  left: 0;
+  top: auto;
+  bottom: -120px; }
+
+.carousel-work .carousel-indicators li {
+  background: transparent;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #153b51; }
+
+.carousel-work .carousel-indicators .active {
+  background: #153b51; }
+
+.carousel-work {
+  padding-top: 80px; }
+
+.carousel-data > a {
+  display: block; }
+
+.carousel-data > a.learn-more {
+  display: inline-block; }
+
+.carousel-data > a img {
+  margin-bottom: 20px; }
+
+.carousel-data h4 {
+  font-family: "AdobeClean-Regular";
+  margin-bottom: 0px;
+  color: #153b51; }
+
+.carousel-data p {
+  margin: 20px 0px;
+  color: #153b51; }
+
+.modal-header {
+  padding-bottom: 0px;
+  border-bottom: 0px; }
+
+.form-title {
+  margin-bottom: 40px; }
+
+.modal-styling .modal-content {
+  min-width: 440px; }
+
+.modal-styling .form-wrap input {
+  border: 1px solid var #ebf1f5;
+  padding: 25px; }
+
+.modal-btn-orange {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0px;
+  background: #ffb319;
+  color: #fff; }
+
+.light-grey {
+  border: 1px solid #ebf1f5; }
+
+.modal-styling .modal-body {
+  padding-bottom: 0px;
+  padding-left: 55px;
+  padding-right: 55px; }
+
+.modal-styling .delimiter {
+  padding: 20px 0px; }
+
+.modal-styling .modal-btn-wrap {
+  margin-top: 35px;
+  margin-bottom: 30px; }
+
+.modal-styling .form-control:focus {
+  box-shadow: none;
+  border-color: #ebf1f5; }
+
+.line {
+  position: relative; }
+
+.line span::after {
+  position: absolute;
+  content: " ";
+  border: 1px solid #ebf1f5;
+  left: 0;
+  width: 46%;
+  top: 12px; }
+
+.line span::before {
+  position: absolute;
+  content: " ";
+  border: 1px solid #ebf1f5;
+  right: 0;
+  width: 46%;
+  top: 12px; }
+
+.modal-styling .form-title > h4 {
+  margin-bottom: 50px; }
+
+.modal-content a {
+  color: #153b51; }
+
+.modal-content a:hover {
+  text-decoration: none; }
+
+.social-buttons button {
+  background: transparent;
+  padding: 0px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  margin-right: 10px; }
+
+.social-images {
+  margin-bottom: 35px; }
+
+.social-images img {
+  margin-right: 10px; }
+
+.carousel-item.active .col-md-4:last-child .carousel-data a.learn-more {
+  border-bottom: 1px solid #153b51 !important; }
+
+/*--------------------------------------
+			Footer
+ ----------------------------------------*/
+footer {
+  background: #153b51;
+  padding: 50px 0px 0px 0px; }
+
+.footer-col-content h5 {
+  font-family: "AdobeClean-Bold";
+  color: #fff;
+  font-size: 25px; }
+
+.footer-col-content ul,
+.footer-bottom-content ul {
+  margin: 0px;
+  padding: 0px; }
+
+.footer-col-content ul li,
+.footer-bottom-content ul li {
+  list-style: none;
+  line-height: 30px; }
+
+.footer-col-content ul li a,
+.footer-bottom-content ul li a {
+  font-size: 14px;
+  color: #fff; }
+
+.footer-col-content ul li a:hover,
+.footer-bottom-content ul li a:hover {
+  text-decoration: none; }
+
+.footer-col-content ul li a i {
+  margin-right: 5px; }
+
+.footer-col-content img {
+  margin-bottom: 20px; }
+
+.footer-col-content {
+  padding-bottom: 30px; }
+
+hr {
+  margin: 0px;
+  border: 1px solid grey; }
+
+.footer-bottom-content p {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 0px; }
+
+.social-icons li a {
+  padding-right: 20px; }
+
+.padd-tp-btm-20 {
+  padding: 20px 0px; }
+
+.social-icons li a i {
+  font-size: 20px; }
+
+/*# sourceMappingURL=style.css.map */

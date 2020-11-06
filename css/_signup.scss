@@ -1,0 +1,24 @@
+/*--------------------------------------
+      Signup Section
+ ----------------------------------------*/
+ .signup-data{
+  padding:150px 0px;
+ }
+ .signup-data a{
+  position: relative;
+  color:$text-color;
+  display: inline-block;
+  font-family: "AdobeClean-Bold";
+ }
+ .signup-data a::after{
+  content: "";
+    position: absolute;
+    left: 0;
+    border: 1px solid $text-color;
+    bottom: -20px;
+    width: 100%;
+
+ }
+  .signup-data a:hover{
+    text-decoration: none;
+  }

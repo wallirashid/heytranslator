@@ -1,0 +1,60 @@
+
+h1,h2,h3,h4,h5,h6{
+	font-family: "AdobeClean-Bold";
+}
+p,
+a{
+	font-family: 'Open Sans', sans-serif;
+}
+.main-menu{
+	padding:10px 25px;
+}
+.main-menu .navbar-nav .nav-item .nav-link{
+	color:$black;
+	padding-right: 30px;
+	padding-top: 10px;
+}
+.main-menu .navbar-nav .nav-item .nav-link:hover{
+	text-decoration: none;
+}
+.main-menu .navbar-nav .nav-item:last-chid .nav-link{
+	padding:0px;
+}
+.orange-btn{
+	width:125px;
+	height: 40px;
+	display: inline-block;
+	line-height: 40px;
+	background: $btn-bg-orange;
+	color: $white-color!important;
+	text-align: $text-center;
+	border-radius: 5px;
+}
+.orange-btn:hover{
+	text-decoration: none;
+}
+.banner-col-data h1{
+	color: $text-color;
+}
+.banner{
+	padding:150px 0px 0px 0px;
+}
+.banner-col-data h1{
+	 font-family: "AdobeClean-Bold";
+	margin-bottom: 0px;
+}
+.banner-col-data p{
+	margin: 30px 0px;
+}
+.col-large .banner-col-data{
+	padding-left: 150px;
+}
+.down-icon{
+	padding:60px 0px;
+}
+.down-icon a{
+	color:$text-color;
+}
+.down-icon a i{
+	font-size: 20px;
+}

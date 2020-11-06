@@ -1,0 +1,92 @@
+
+
+.modal-header{
+	padding-bottom: 0px;
+	border-bottom: 0px;
+}
+.form-title{
+	margin-bottom: 40px;
+}
+.modal-styling .modal-content{
+	min-width: 440px;
+}
+
+.modal-styling .form-wrap input{
+	border:1px solid var $light-grey;
+	padding: 25px;
+}
+.modal-btn-orange{
+	display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
+    background: $orange-bg;
+    color:$white-color; 
+
+}
+.light-grey{
+	border:1px solid $light-grey;
+}
+.modal-styling .modal-body{
+	padding-bottom: 0px;
+	padding-left: 55px;
+	padding-right: 55px
+}
+.modal-styling .delimiter{
+	padding:20px 0px;
+}
+.modal-styling .modal-btn-wrap{
+	margin-top:35px;
+    margin-bottom: 30px;
+}
+.modal-styling  .form-control:focus{
+	box-shadow: none;
+	border-color:$light-grey;
+}
+.line{
+	position: relative;
+}
+.line span::after{
+	position: absolute;
+    content: " ";
+    border: 1px solid $light-grey;
+    left: 0;
+    width: 46%;
+    top: 12px;
+}
+.line span::before{
+	position: absolute;
+    content: " ";
+    border: 1px solid $light-grey;
+    right: 0;
+    width: 46%;
+    top: 12px;
+}
+.modal-styling .form-title > h4{
+	margin-bottom: 50px;
+}
+.modal-content a{
+	color: $text-color;
+}
+.modal-content a:hover{
+	text-decoration: none;
+}
+.social-buttons button {
+    background: transparent;
+    padding: 0px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    margin-right: 10px;
+}
+
+.social-images{
+	margin-bottom: 35px;
+}
+.social-images img{
+	margin-right: 10px;
+}
+.carousel-item.active .col-md-4:last-child .carousel-data a.learn-more{
+	border-bottom: 1px solid $text-color!important;
+}

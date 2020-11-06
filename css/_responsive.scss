@@ -1,0 +1,47 @@
+
+@media screen and (min-width: 768px) and (max-width:991px){
+	.col-large .banner-col-data {
+    	padding-left: 0;
+	}
+
+}
+@media screen and (min-width: 360px) and (max-width:767px){
+	.banner{
+		padding-top: 60px;
+	}
+	.col-large .banner-col-data{
+		padding-left: 0px;
+		padding-bottom: 30px;
+	}
+	.carousel-data{
+		margin-bottom: 40px;
+	}
+	.signup-data{
+		padding:60px 0px;
+	}
+	.footer-bottom-content .justify-content-start{
+		justify-content: space-around!important;
+	}
+	.footer-bottom-content p{
+		text-align: center;
+	}
+	.main-menu .navbar-toggler{
+		border: 1px solid var(--orange-text);
+		background: var(--btn-bg-orange);
+	}
+	.inner-text-col{
+		padding-top: 60px;
+	}
+	.modal-styling .modal-content{
+		min-width: auto;
+		padding: 20px;
+	}
+	.modal-styling .modal-body{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	nav .orange-btn{
+		width: 100%;
+	}
+
+}

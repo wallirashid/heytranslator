@@ -1,0 +1,57 @@
+footer{
+	background:$blue-bg;
+	padding:50px 0px 0px 0px;
+}
+.footer-col-content h5{
+	font-family: "AdobeClean-Bold";
+	color: $white-color;
+	font-size: 25px;
+}
+.footer-col-content ul,
+.footer-bottom-content ul{
+	margin:0px;
+	padding: 0px;
+}
+.footer-col-content ul li,
+.footer-bottom-content ul li{
+	list-style: none;
+	line-height: 30px;
+}
+.footer-col-content ul li a,
+.footer-bottom-content ul li a{
+	 font-size: 14px;
+	color: $white-color;
+}
+.footer-col-content ul li a:hover,
+.footer-bottom-content ul li a:hover{
+	text-decoration: none;
+}
+.footer-col-content ul li a i{
+	margin-right: 5px;
+}
+.footer-col-content img{
+	margin-bottom: 20px;
+}
+.footer-col-content{
+	padding-bottom: 30px;
+}
+
+hr{
+	margin:0px;
+	border:1px solid grey;
+}
+.footer-bottom-content p{
+	color: $white-color;
+	font-size: 16px;
+	margin-bottom: 0px;
+}
+.social-icons li a{
+	padding-right: 20px;
+}
+.padd-tp-btm-20{
+	padding:20px 0px;
+}
+.social-icons li a i{
+	font-size: 20px;
+}
+
